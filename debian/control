@@ -15,6 +15,11 @@ Standards-Version: 3.9.8
 
 Package: libx265
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, geeqie-common (= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: x265 codec library
+
+Package: x265
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libx265
+Description: x265 codec command line tool
 
