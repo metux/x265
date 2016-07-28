@@ -1,0 +1,14 @@
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+cmake_uninstall.cmake
+install_manifest.txt
+*.a
+*.so
+*.so.*
+*.pc
+
+/x265
+/x265.def
+/x265_config.h

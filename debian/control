@@ -1,0 +1,20 @@
+Source: x265
+Section: graphics
+Priority: optional
+Maintainer: Enrico Weigelt, metux IT consult <enrico.weigelt@gr13.net>
+Build-Depends: debhelper (>= 9),
+    dpkg-dev (>= 1.16.1~),
+    dh-autoreconf,
+    gnome-doc-utils,
+    libtool,
+    autoconf,
+    automake,
+    autotools-dev,
+    cmake
+Standards-Version: 3.9.8
+
+Package: libx265
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, geeqie-common (= ${source:Version})
+Description: x265 codec library
+
